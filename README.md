@@ -28,9 +28,11 @@ For example, on a mac environment, the steps looks like this:
 
 # IDL setup
 
-Note, for the Mac platform, the steps listed in the link below are incomplete, in that you will need to also add the following line to your sudoers by performing the following steps prior to executing the steps in the :  
+Note, for the Mac platform, the steps listed in the link below are incomplete, in that you will need to also add the following line to your sudoers file by performing the following steps prior to executing the steps in the :  
 Open your sudoers file with `sudo visudo`  
-Add the line `Defaults         env_keep += "PYTHONHOME"` to the sudoers file.  
+Add the line  
+`Defaults         env_keep += "PYTHONHOME"`  
+to the sudoers file.  
 
 Next, follow the instructions listed here:  
 http://www.harrisgeospatial.com/docs/python.html#Installation  
