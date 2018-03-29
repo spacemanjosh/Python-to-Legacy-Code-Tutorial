@@ -38,5 +38,12 @@ Next, follow the instructions listed here:
 http://www.harrisgeospatial.com/docs/python.html#Installation  
 For Windows and Linux, the setup instructions are fairly simple.  For Mac systems however, you will need to have `sudo` privileges on your machine to execute the setup script.  If you do not have `sudo` privileges on your machine, you'll have to talk with your IT or sys-admin about executing these steps.  
 
+For example, on my system I added the following to my `.bashrc` file (after editing the sudoers file that is):  
 
+`export PATH="/Users/$USER/anaconda/bin:$PATH"`  
+`export PYTHONHOME="/Users/$USER/anaconda"`  
+`. /Applications/harris/envi/idl/bin/idl_setup.bash`  
 
+And then I executed this script:  
+`cd /Applications/harris/envi/idl/lib/bridges`  
+`sudo python setup.py install`  
