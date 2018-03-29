@@ -19,8 +19,8 @@ I recommend that you install the [Anaconda Python](https://www.anaconda.com/down
 
 # Matlab setup
 
-To wire up Matlab to your python installation, you'll need to follow the steps listed here.
-https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html
+To wire up Matlab to your python installation, you'll need to follow the steps listed here:  
+https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html  
 For example, on a mac environment, the steps looks like this:
 
 `cd /Applications/MATLAB_R2018a.app/extern/engines/python/`  
