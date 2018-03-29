@@ -1,4 +1,4 @@
-# SEA2018-Python-to-Legacy-Code-Tutorial
+# Python-to-Legacy-Code-Tutorial
 This tutorial will teach you how to incorporate code from popular scientific processing packages (such as IDL and Matlab) into your Python processing pipeline. This will allow you to tie together scientific code written in different languages, seamlessly.
 
 We will be utilizing Python bridge utilities built into the most recent versions of IDL and Matlab.  As such, it is important to install compatible versions of Python and either IDL or Matlab.
