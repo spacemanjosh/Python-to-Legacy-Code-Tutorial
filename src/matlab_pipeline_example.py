@@ -4,17 +4,15 @@ Created on Apr 2, 2018
 @author: Josh Elliott : joshua.elliott@lasp.colorado.edu
 '''
 
-import matlab.engine
 from runner import runner
 from pipeline import pipeline
+from matlab_function import matlab_function
 
 if __name__ == '__main__':
-    eng = matlab.engine.start_matlab()
-    eng.addpath('matlab')
     
-    func1 = eng.fibonacci
+    func1 = matlab_function('fibonacci')
     runner1 = runner(func1)
-    func2 = eng.factorial 
+    func2 = matlab_function('factorial')
     runner2 = runner(func2)
     
     result = runner1.run(7)

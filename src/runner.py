@@ -14,6 +14,6 @@ class runner(object):
         self.function = function
         
     def run(self, *params):
-        result = self.function(*params)
+        result = self.function.run(*params)
         return result
         
